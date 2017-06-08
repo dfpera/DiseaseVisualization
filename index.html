@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>The World's Pandemic History</title>
+    <link rel="icon" href="../../images/favicon.png" type="image/png">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="js/jquery-ui/jquery-ui.css" rel="stylesheet">
+    <script src="js/jquery-ui/external/jquery/jquery.js"></script>
+    <script src="js/jquery-ui/jquery-ui.js"></script>
+    <script src="js/ammap/ammap.js" type="text/javascript"></script>
+    <script src="js/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+    <script src="js/data.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <!-- TITLE PAGE -->
+    <div id="titleScreen">
+        <div id="disclaimer"> 
+            <p>*Due to the lack of data available, not all of the<br>information represented here is accurate.</p>
+        </div>
+        <div id="title" style="display:none;">
+            <img src="images/title.png">
+        </div>
+        <div id="timeline" style="display:none;">
+            <div id="top"></div>
+            <div id="blackDeath"></div>
+            <div id="typhus"></div>
+            <div id="influenza"></div>
+            <div id="measles"></div>
+            <div id="smallPox"></div>
+            <div id="cholera"></div>
+            <div id="sars"></div>
+            <div id="hivAIDS"></div>
+            <div id="bottom"></div>
+        </div>
+    </div>
+    <!-- END TITLE PAGE -->
+    <!-- MAP --> 
+    <div id="mapTitle">
+        <h2 id="mapTitle1">AFFECTED COUNTRIES</h2>
+        <h2 id="mapTitle2"></h2>
+    </div>
+    <div id="fullMap">
+    </div>
+    <!-- END MAP -->
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+        <div id="contentBar">
+            <h3></h3>
+            <p id="date"></p>
+            <p id="deaths"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <div id="navigation">
+        <div id="back">
+        </div>
+        <div id="forward">
+        </div>
+    </div>
+    <div id="blueBackground"></div>
+    <div id="deathTollBar"></div>
+    <div id="deathToll"></div>
+    <!-- END SIDEBAR -->
+    <!-- MINITURE TIMELINE -->
+    <div id="timelineSmall">
+        <div id="blackDeath"></div>
+        <div id="typhus"></div>
+        <div id="influenza"></div>
+        <div id="measles"></div>
+        <div id="smallPox"></div>
+        <div id="cholera"></div>
+        <div id="sars"></div>
+        <div id="hivAIDS"></div>
+    </div>
+    <!-- END MINITURE TIMELINE -->
+</div>
+</body>
+</html>

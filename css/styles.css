@@ -1,0 +1,580 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+/* ===== GLOBAL PROPERTIES ===== */
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container {
+    width:100vw;
+    height:100vh;
+}
+
+/* ===== TITLE SCREEN ===== */
+#titleScreen {
+    width:100%;
+    height:100%;
+    background:white;
+    position:fixed;
+    z-index:6;
+    left:0;
+    top:0;
+}
+
+#titleScreen #title {
+    color:white;
+    width:400px;
+    margin-left:-200px;
+    left:50%;
+    top:40%;
+    position:fixed;
+}
+
+#titleScreen #title img {
+    width:100%;
+    float:left;
+    clear:both;
+}
+
+#disclaimer {
+    position:fixed;
+    float:right;
+    right:2.5%;
+    top:2.5%;
+    opacity:.8;
+}
+
+#disclaimer {
+    font-size:.9em;
+}
+
+/* ===== TIMELINE ===== */
+#timeline {
+    width:95%;
+    margin:0 2.5%;
+    top:45%;
+    z-index:6;
+    position:fixed;
+}
+
+#timeline #top {
+    height:8.5vw;
+    background:url(../images/timeline/top.png) no-repeat center bottom;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #blackDeath {
+    height:1.5vw;
+    background:url(../images/timeline/blackdeath.png) no-repeat center bottom;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #blackDeath:hover {
+    height:1.5vw;
+    background:url(../images/timeline/blackdeath-hover.png) no-repeat center bottom;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #influenza {
+    height:1.4vw;
+    background:url(../images/timeline/influenza.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #influenza:hover {
+    height:1.4vw;
+    background:url(../images/timeline/influenza-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #typhus {
+    height:1.4vw;
+    background:url(../images/timeline/typhus.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #typhus:hover {
+    height:1.4vw;
+    background:url(../images/timeline/typhus-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #measles {
+    height:1.4vw;
+    background:url(../images/timeline/measles.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #measles:hover {
+    height:1.4vw;
+    background:url(../images/timeline/measles-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #smallPox {
+    height:1.35vw;
+    background:url(../images/timeline/smallpox.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #smallPox:hover {
+    height:1.35vw;
+    background:url(../images/timeline/smallpox-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #cholera {
+    height:1.4vw;
+    background:url(../images/timeline/cholera.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #cholera:hover {
+    height:1.4vw;
+    background:url(../images/timeline/cholera-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #sars {
+    height:1.4vw;
+    background:url(../images/timeline/sars.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #sars:hover {
+    height:1.4vw;
+    background:url(../images/timeline/sars-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #hivAIDS {
+    height:1.4vw;
+    background:url(../images/timeline/hivaids.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #hivAIDS:hover {
+    height:1.4vw;
+    background:url(../images/timeline/hivaids-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timeline #bottom {
+    height:7.5vw;
+    background:url(../images/timeline/bottom.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+/* ===== MINITURE TIMELINE ===== */
+#timelineSmall {
+    height:20%;
+    width:47.62vh;
+    top:80%;
+    position:fixed;
+}
+
+#timelineSmall div{
+    height:12.5%;
+    width:100%;
+    z-index:4;
+}
+
+#timelineSmall #blackDeath {
+    background:url(../images/timeline/small/blackdeath.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #typhus {
+    background:url(../images/timeline/small/typhus.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #influenza {
+    background:url(../images/timeline/small/influenza.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #measles {
+    background:url(../images/timeline/small/measles.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #smallPox {
+    background:url(../images/timeline/small/smallpox.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #cholera {
+    background:url(../images/timeline/small/cholera.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #sars {
+    background:url(../images/timeline/small/sars.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #hivAIDS {
+    background:url(../images/timeline/small/hivaids.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #blackDeath:hover {
+    background:url(../images/timeline/small/blackdeath-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #typhus:hover {
+    background:url(../images/timeline/small/typhus-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #influenza:hover {
+    background:url(../images/timeline/small/influenza-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #measles:hover {
+    background:url(../images/timeline/small/measles-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #smallPox:hover {
+    background:url(../images/timeline/small/smallpox-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #cholera:hover {
+    background:url(../images/timeline/small/cholera-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #sars:hover {
+    background:url(../images/timeline/small/sars-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#timelineSmall #hivAIDS:hover {
+    background:url(../images/timeline/small/hivaids-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+/* ===== MAPS ===== */
+#fullMap {
+    top:10%;
+    width:100%;
+    height:87.5%;
+    position:fixed;
+}
+
+#mapTitle {
+    width:600px;
+    height:15%;
+    left:50%;
+    margin-left:-300px;
+    position:fixed;
+    text-align:center;
+    z-index:4;
+}
+
+#mapTitle1 {
+    margin-top:.75em;
+    font-size:2.5em;
+}
+
+#mapTitle2 {
+    margin-top:.25em;
+    font-size:2em;
+}
+
+/* ===== SIDEBAR ===== */
+#sidebar {
+    width:22%;
+    height:87.5%;
+    position:fixed;
+    float:right;
+    right:2.5vh;
+    z-index:4;
+    top:10%;
+}
+
+#blueBackground {
+    width:22%;
+    height:87.5%;
+    float:right;
+    position:fixed;
+    z-index:3;
+    right:2.5vh;
+    top:10%;
+    opacity:.54;
+    background-color:#544ED5;
+}
+
+#deathToll {
+    width:3.3%;
+    height:87.5%;
+    float:right;
+    position:fixed;
+    z-index:4;
+    background-color:#D12716;
+    right:2.5vh;
+    top:10%;
+}
+
+#deathTollBar {
+    width:3.3%;
+    height:87.5%;
+    float:right;
+    position:fixed;
+    z-index:5;
+    background:url(../images/deathtoll.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    right:2.5vh;
+    top:10%;
+}
+
+#contentBar {
+    z-index:5;
+    height:75%;
+    width:85%;
+}
+
+/* ===== SIDEBAR CONTENT ===== */
+#contentBar p, #contentBar h3 {
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#contentBar h3 {
+    margin-top:3em;
+    color:white;
+    font-size:1.5em;
+    margin-bottom:0em;
+}
+
+#date {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom:10%;
+    font-size:1.1em;
+    color:white;
+}
+
+#deaths {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom:5%;
+    font-size:1.1em;
+    color:white;
+}
+
+#description {
+    line-height:115%;
+    font-size:1em;
+}
+
+/* ===== NAVIGATION ===== */
+#navigation {
+    position:fixed;
+    height:13%;
+    width:22%;
+    right:2.5vh;
+    float:right;
+    top:85%;
+    height:10%;
+    z-index:4;
+    padding-right:2.2%;
+}
+
+#navigation div {
+    position:relative;
+    height:100%;
+    width:15%;
+}
+
+#back {
+    z-index:4;
+    left:23%;
+    float:left;
+    background:url(../images/buttonleft.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#back:hover {
+    z-index:4;
+    background:url(../images/buttonleft-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#forward {
+    z-index:4;
+    right:23%;
+    float:right;
+    background:url(../images/buttonright.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+#forward:hover {
+    z-index:4;
+    background:url(../images/buttonright-hover.png) no-repeat center top;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
